@@ -1,0 +1,14 @@
+
+B
+java:S1197",Move the array designators [][] to the type.(´Êâˆ
+S
+java:S1854"8Remove this useless assignment to local variable "maxc".(Ì¢éÓùÿÿÿÿ
+M
+java:S1854"8Remove this useless assignment to local variable "minc".(€ëÊl
+D
+java:S1481")Remove this unused "maxc" local variable.(Ì¢éÓùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(šß©¥
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ê–Ş
+Q	java:S125"<This block of commented-out lines of code should be removed.(·«ÿø
+0
+java:S1220""Move this file to a named package.
