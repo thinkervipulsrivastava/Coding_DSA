@@ -21,8 +21,8 @@ public class Day4RingRotate {
     }
 
     public static void rotateShell (int arr[][], int shell, int rotate) {
-        int arr1 [] = readValue (arr);
-        rotate (arr1, rotate);
+       // int arr1 [] = readValue (arr);
+        //rotate (arr1, rotate);
 
     }
 
@@ -31,7 +31,7 @@ public class Day4RingRotate {
         if (rotate < arr.length)
             rotate = arr.length + rotate;
             reverse (arr, 0, arr.length - rotate - 1);
-            reverse (arr, arr.length - rotate, arr.length - 1 )
+            reverse (arr, arr.length - rotate, arr.length - 1 );
 
     }
 
