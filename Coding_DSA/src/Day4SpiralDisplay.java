@@ -7,7 +7,7 @@ public class Day4SpiralDisplay {
         int m = input.nextInt();
         int arr [][] = new int[n][m];
         for (int i = 0; i < n; i ++) {
-            for (int j = 0; j < n; j ++) {
+            for (int j = 0; j < m; j ++) {
                 arr [i][j] = input.nextInt();
             }
         }
@@ -16,16 +16,38 @@ public class Day4SpiralDisplay {
 
     public static void spiralDisplay (int [][] arr, int n, int m) {
         int minr = 0;
-        int maxr = n ;
+        int maxr = n - 1 ;
         int minc = 0;
-        int maxc = m;
+        int maxc = m - 1;
+        int totalElement = n * m;
+        int counter = 0;
         //int j = maxc;
-        for (int i = minr,j = minc; i < maxr - 1; i ++   ) {
-            System.out.println(arr [i][j]);
-        }
-        minc ++;
+        while (counter != totalElement) {
+            for (int i = minr, j = minc; i <= maxr && counter <totalElement ; i++) {
+                System.out.println(arr[i][j]);
+                counter++;
+            }
+            minc++;
 
-       // for (int i =  + 1, j = )
+            for (int i = maxr, j = minc; j <= maxc && counter <totalElement ; j++) {
+                System.out.println(arr[i][j]);
+                counter++;
+            }
+            maxr--;
+
+            for (int i = maxr, j = maxc; i >= minr && counter <totalElement ; i--) {
+                System.out.println(arr[i][j]);
+                counter++;
+            }
+            maxc--;
+
+            for (int i = minr, j = maxc; j >= minc && counter <totalElement ; j--) {
+                System.out.println(arr[i][j]);
+                counter++;
+            }
+            minr++;
+
+        }
 
     }
 
