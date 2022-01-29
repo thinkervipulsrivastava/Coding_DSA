@@ -1,15 +1,0 @@
-
-G
-java:S1197
-",Move the array designators [][] to the type.(Í¦ô—þÿÿÿÿ
-G
-java:S1197",Move the array designators [][] to the type.(˜Ó¥Éýÿÿÿÿ
-W	java:S125"<This block of commented-out lines of code should be removed.(Õ³¯#8×´Ä‹ê/
-E
-java:S1197"*Move the array designators [] to the type.(Ã§Íúþÿÿÿÿ
-@
-java:S1197&"*Move the array designators [] to the type.(ñüÕó
-0
-java:S1220""Move this file to a named package.
-¢
-java:S2681!"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÝŸïôûÿÿÿÿ

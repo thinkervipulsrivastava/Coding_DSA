@@ -1,19 +1,0 @@
-
-E
-java:S1197"*Move the array designators [] to the type.( ÃÚ°ùÿÿÿÿ
-@
-java:S1197"*Move the array designators [] to the type.(€ûİº
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(´¡‹”
-N
-java:S1854"8Remove this useless assignment to local variable "arr1".(•Œ¶
-@
-java:S1197"*Move the array designators [] to the type.(©Ó•›
-E
-java:S1197"*Move the array designators [] to the type.(çŸ¾÷úÿÿÿÿ
-@
-java:S1197"*Move the array designators [] to the type.(•Œ¶
-?
-java:S1481")Remove this unused "arr1" local variable.(•Œ¶
-0
-java:S1220""Move this file to a named package.
