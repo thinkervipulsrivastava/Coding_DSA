@@ -8,11 +8,12 @@ public class DayOneIsANumberPrime {
         for (int i = 0; i < t; i ++) {
             int a = input.nextInt();
             boolean flag = prime (a);
-            if (flag) {
+         /*   if (flag) {
                 System.out.println("prime");
             } else {
                 System.out.println("not prime");
-            }
+            }*/
+            System.out.println(flag ? "prime" : "not prime");
 
         }
 
